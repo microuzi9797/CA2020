@@ -6,14 +6,14 @@ int convert(char *);
 
 int main()
 {
-    char input[SIZE];
-    int out;
+	char input[SIZE];
+	int out;
 
-    while (scanf("%s", input) != EOF) {
-        out = convert(input);
+	while (scanf("%s", input) != EOF) {
+		out = convert(input);
 	printf("%d\n", out);
-    }
+	}
 
-    return 0;
+	return 0;
 }
 
