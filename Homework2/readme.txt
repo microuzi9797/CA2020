@@ -11,9 +11,9 @@ Docker basic usage:
 
   file transfer:
     from local to docker:
-    > docker cp ./code/Problems/folder/file.s test:/root/Problems/folder/file.s
+    > docker cp ./code/Problems/folder/file.s container:/root/Problems/folder/file.s
     from docker to local:
-    > docker cp test:/root/Problems/folder/file.s ./code/Problems/folder/file.s
+    > docker cp container:/root/Problems/folder/file.s ./code/Problems/folder/file.s
 
     example:
     > docker cp ./code/Problems/convert/convert.s test:/root/Problems/convert/convert.s
