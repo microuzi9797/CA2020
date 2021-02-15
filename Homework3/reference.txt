@@ -1,0 +1,2 @@
+https://www.csie.ntu.edu.tw/~b97067/verilog_tutorial.pdf
+https://github.com/albertxie/iverilog-tutorial
